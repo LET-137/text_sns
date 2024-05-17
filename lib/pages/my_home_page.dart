@@ -25,8 +25,13 @@ class MyHomePage extends StatelessWidget {
               return;
             } else {
               final publicUser = PublicUser.fromJson(firstUserJson);
+<<<<<<< HEAD
               print("ユーザーのID: ${publicUser.uid}");
               print("ユーザーのフォロワー数: ${publicUser.followerCount}");
+=======
+              print("ユーザー数: ${publicUser.followerCount}");
+              print("ユーザーID: ${publicUser.uid}");
+>>>>>>> firebase
             }
           } catch (e) {
             // print("アクセスが拒否されました");
